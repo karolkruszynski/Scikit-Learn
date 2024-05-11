@@ -29,6 +29,7 @@ KNeighborsClassifier(algorithm='auto',
 #Predict and compare
 print(knn.predict(x_test))
 print(y_test)
+# We can see that we obtained a 10% error. index number 1 (second from left) is error compare to y_test
 
 #Visualization
 import matplotlib.pyplot as plt
