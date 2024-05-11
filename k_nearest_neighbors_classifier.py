@@ -26,3 +26,7 @@ KNeighborsClassifier(algorithm='auto',
                      p=2,
                      weights='uniform')
 
+#Predict and compare
+print(knn.predict(x_test))
+print(y_test)
+
